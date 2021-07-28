@@ -1,0 +1,185 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+hr.horizontal{
+  border: 8px solid yellow;
+  margin-left: 39%;
+  width: 20%;
+  z-index: -1;
+}
+#navigation{
+    position: fixed;
+    width: 106%;
+    background-color: #D4F1F4;
+    text-decoration-style: wavy;
+
+}
+/***********************anchortags**********************************/
+a.skillheading:link, a.skillheading:visited{
+  color: #21B6A8;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  margin-left: 2%;
+}
+
+a.skillheading:hover{
+  text-decoration: none;
+}
+
+/****************************uppercontainer***********************************/
+.uppercontainer{
+
+  background-color: #D4F1F4;
+  height: 600px;
+  width: 106%;
+  z-index: -1;
+}
+#name{
+  color: #189AB4;
+  text-align: center;
+  padding-top: 151px;
+  font-family: "Sofia", sans-serif;
+}
+#description{
+  color: #189AB4;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+#unicorn{
+  margin-left: 42%;
+  height: 202px;
+  width: 200px;
+}
+/****************************middlecontainer**********************************/
+#me{
+  height: 200px;
+  width: 200px;
+  margin-left: 42%;
+  border-radius: 50%;
+}
+
+.heading{
+  color:#FFAEBC;
+  font-family: Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.bio{
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+/*********************************skills**************************************/
+.skill{
+  height: 200px;
+  width: 200px;
+  margin-left: 300px;
+  float: left;
+}
+
+#skill1{
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 25px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  position: relative;
+  left:  10px;
+  z-index: -1;
+}
+#design{
+  position: relative;
+  right: 50px;
+}
+/******************************contact*****************************************/
+.button {
+  background-color: #189AB4;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 44%;
+  height: 15px;
+  cursor: pointer;
+  padding-bottom: 30px;
+
+}
+.button1 {border-radius: 4px;}
+/************************************final************************************/
+#final{
+  background-color: #D4F1F4;
+  height: 100px;
+  width: 106%;
+}
+
+/***************project*************************************/
+a.projectheading:link, a.projectheading:visited{
+  color: #189AB4;
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+}
+a.projectheading:hover{
+  text-decoration: none;
+}
+
+#projectcontent{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ol {list-style: none; counter-reset: li}
+
+ol li::before {
+  content: counter(li);
+  color: #189AB4;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 30px;}
+
+
+ol li {counter-increment: li}
+
+img{
+  height: 100vh;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+/***********************************
+<div id = "navigation">
+    <nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#">MM</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#middlecontainer">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skillcontent">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contactcontainer">Contact</a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+</div>
+*****************/
